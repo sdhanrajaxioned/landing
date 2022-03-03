@@ -123,32 +123,50 @@ li {
 /* Banner styling starts here */
 .banner { 
   background-color: #39DEFE;
-  color: #FFF;
-  padding-bottom: 124px;
+  color: #F0FBFE;
+  padding-bottom: 141px;
 }
 
 .banner h2 {
-  font-size: 34px;
-  padding-top: 350px;
+  font-size: 42px;
+  padding-top: 348px;
 }
 
 .banner p {
-  padding: 21px 0 30px;
-  font-size: 23px;
-  line-height: 1.5;
+  padding: 21px 15% 39px 0;
+  font-size: 25px;
+  line-height: 40px;
+}
+
+.banner-info a:hover {
+  cursor: pointer;
+  color: #3887ED;
 }
 
 .banner a {
   cursor: pointer;
-  color: #FFF;
+  color: #F0FBFE;
+}
+
+.download-btn::before {
+  padding-right: 3%;
+  content: '\f179';
+  font-family: "fontAwesome";
 }
 
 .download-btn {
-  padding: 17px 22px;
-  background-color: #398AB9;
-  border-radius: 100px;
-  font-size: 15px;
+  padding: 18px 30px 17px 25px;
   margin-bottom: 100px;
+  border-radius: 100px;
+  background-color: #3887ED;
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+.download-btn:hover {
+  color: #398AB9;
+  background: #FFF;
+  transition: .5s ease-in;
 }
 
 .banner .wrapper {
@@ -159,17 +177,18 @@ li {
 .image-container {
   flex-basis: 50%;
   position: relative;
+  padding-right: 10%;
 }
 
 .image-container img:first-child {
   position: relative;
-  top: 189px;
+  top: 188px;
 }
 
 .image-container img:last-child {
   position: absolute;
-  top: 225px;
-  left: 166px;
+  top: 284px;
+  left: 210px;
 }
 
 
