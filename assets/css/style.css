@@ -50,11 +50,11 @@ strong {
 
 em { font-style: italic; }
 
-img {
+/* img {
   width: 100%;
   border: 0;
   vertical-align: middle;
-}
+} */
 
 sub,
 sup {
@@ -112,11 +112,6 @@ li {
   Header styling starts here
 =================================*/
 
-
-
-
-
-
 /*=================================
   Header styling ends here
 =================================*/  
@@ -125,7 +120,60 @@ li {
   main styling starts here
 =================================*/
 
+/* Banner styling starts here */
+.banner { 
+  background-color: #39DEFE;
+  color: #FFF;
+  padding-bottom: 124px;
+}
 
+.banner h2 {
+  font-size: 34px;
+  padding-top: 350px;
+}
+
+.banner p {
+  padding: 21px 0 30px;
+  font-size: 23px;
+  line-height: 1.5;
+}
+
+.banner a {
+  cursor: pointer;
+  color: #FFF;
+}
+
+.download-btn {
+  padding: 17px 22px;
+  background-color: #398AB9;
+  border-radius: 100px;
+  font-size: 15px;
+  margin-bottom: 100px;
+}
+
+.banner .wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.image-container {
+  flex-basis: 50%;
+  position: relative;
+}
+
+.image-container img:first-child {
+  position: relative;
+  top: 189px;
+}
+
+.image-container img:last-child {
+  position: absolute;
+  top: 225px;
+  left: 166px;
+}
+
+
+/* Banner styling starts here */
 
 
 
