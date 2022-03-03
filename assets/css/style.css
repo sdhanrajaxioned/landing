@@ -108,6 +108,12 @@ li {
   width: 86%; 
   margin: 0 auto;
 }
+
+.wrapper-simple {
+  max-width: 1350px;
+  width: 90%; 
+  margin: 0 auto;
+}
 /*=================================
   Header styling starts here
 =================================*/
@@ -190,6 +196,70 @@ li {
   top: 284px;
   left: 210px;
 }
+
+/* Keep it simple section styling starts here */
+.simple { padding-top: 340px;}
+
+.wrapper-simple {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper-simple figure { flex: 1;}
+
+.keep-it-simple { 
+  padding-left: 2.5%;
+  flex: 1;
+}
+
+.wrapper-simple{
+  border-bottom: 2px solid #F2F2F2;
+}
+
+.keep-it-simple h2{
+  font-size: 33px;
+  font-weight: 500;
+}
+
+.keep-it-simple h2::after,
+.pixel-perfect h2::after,
+.beautiful-design h2::after  {
+  content: '';
+  width: 5.3%;
+  padding-top: 22px;
+  border-bottom:3px solid #76ACF3;
+  display: block;
+}
+
+.grey-txt { 
+  padding-top: 24px;
+  color: #858485;
+  font-size: 19px;
+  line-height: 30px;
+}
+/* Keep it simple section styling starts here */
+
+/* Pixel perfect section styling starts here */
+.pixel { padding-top: 210px;}
+
+.pixel .wrapper-simple { 
+  display: flex; 
+  /* align-items: center; */
+  justify-content: flex-start;
+}
+
+.pixel-perfect h2 { 
+  padding-top: 58px;
+  font-size: 35px; 
+}
+
+
+.pixel .wrapper-simple   figure { 
+  padding-left: 20%;
+}
+
+
+/* Pixel perfect section styling ends here */
 
 
 /* Banner styling starts here */
