@@ -225,7 +225,7 @@ li {
 .pixel-perfect h2::after,
 .beautiful-design h2::after  {
   content: '';
-  width: 5.3%;
+  width: 5%;
   padding-top: 22px;
   border-bottom:3px solid #76ACF3;
   display: block;
@@ -253,13 +253,29 @@ li {
   font-size: 35px; 
 }
 
+.pixel-perfect p {
+  padding-right: 26%;
+}
+/* Pixel perfect section styling ends here */
 
-.pixel .wrapper-simple   figure { 
-  padding-left: 20%;
+/* Beautiful design section styling ends here */
+
+.beautiful { padding-top: 209px; }
+
+.beautiful .wrapper-simple {
+  display: flex;
 }
 
+.beautiful-design {
+  padding-top: 35px;
+  padding-left: 18%;
+}
 
-/* Pixel perfect section styling ends here */
+.beautiful-design h2 {
+  font-size: 36px;
+}
+
+/* Beautiful design section styling ends here */
 
 
 /* Banner styling starts here */
