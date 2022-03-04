@@ -459,21 +459,69 @@ li {
 }
 
 .content-txt {
+  padding: 0 7% 141px;
   padding-top: 10px;
   padding-bottom: 141px;
-  color: #A1A1A1;
+  color: #B0B0B0;
   line-height: 31px;
 }
-
 /* Features section styling ends here */
 
-
-/* Banner styling starts here */
-
+/* Subscribe section styling starts here */
 
 
+.subscribe {
+  padding-top: 135px; 
+  background-color: #39DEFE;
+}
 
+.subscribe h2 {
+  font-size: 36px;
+  text-align: center;
+}
 
+.subscribe p {
+  padding: 29px 17% 96px;
+  color: #26A4D4;
+  font-size: 21px;
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 144px;
+  gap: 55px;
+}
+
+input[type=text] {
+  width: 392px;
+  padding: 25px 0 17px 4%;
+  border: 2px solid #88ECFF;
+  background-color: #88ECFF;
+}
+
+input[type=email]{
+  width: 392px;
+  padding: 25px 0 17px 4%;
+  border: 2px solid #88ECFF;
+  background-color: #88ECFF;
+}
+
+::placeholder {
+  font-size: 20px;
+  color: #000;
+}
+
+.subscribe-btn {
+  color: #FFF;
+  background-color: #3887ED;
+  font-size: 16px;
+  padding: 10px 12%;
+  border: none;
+  border-radius: 50px;
+}
+/* Subscribe section styling ends here */
 
 /*=================================
   main styling ends here
