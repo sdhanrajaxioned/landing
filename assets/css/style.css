@@ -95,7 +95,7 @@ li {
   list-style-type: none;
 }
 /* Common styling */
-.grey { color: #666; }
+.grey { color: #D8D8D8; }
 .cap { text-transform: capitalize; }
 .up { text-transform: uppercase; }
 .center { text-align: center; }
@@ -112,6 +112,16 @@ li {
 .wrapper-simple {
   max-width: 1350px;
   width: 90%; 
+  margin: 0 auto;
+}
+.wrapper-beautiful {
+  max-width: 1350px;
+  width: 90%; 
+  margin: 0 auto;
+}
+.wrapper-customer {
+  max-width: 1350px;
+  width: 80%; 
   margin: 0 auto;
 }
 /*=================================
@@ -260,22 +270,94 @@ li {
 
 /* Beautiful design section styling ends here */
 
-.beautiful { padding-top: 209px; }
+.beautiful { padding-top: 208px; }
 
-.beautiful .wrapper-simple {
-  display: flex;
-}
+.beautiful .wrapper-beautiful { display: flex; }
 
 .beautiful-design {
-  padding-top: 35px;
-  padding-left: 18%;
+  padding: 245px 0 0 18%;
 }
 
-.beautiful-design h2 {
-  font-size: 36px;
-}
-
+.beautiful-design h2 { font-size: 36px; }
 /* Beautiful design section styling ends here */
+
+/* Customer Review section styling ends here */
+.customer-review {
+  background-color: #F2F2F2;
+  padding-top: 100px;
+}
+
+.customer-review h2 {
+  padding-bottom: 89px;
+  font-size: 36px;
+  text-align: center;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review h4 {
+  padding-top: 27px;
+  color: #969696;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.circle { 
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  background: rgb(167,173,183);
+  background: linear-gradient(90deg, rgba(167,173,183,1) 0%, rgba(166,167,179,1) 50%, rgba(163,162,175,1) 100%);
+  border-radius: 50%;
+  text-indent: -9999px;
+}
+
+.stars,
+.dot {
+  text-indent: -9999px;
+}
+
+.stars::after {
+  content: "\f005";
+  padding-top: 8px;
+  font-family: "fontAwesome";
+  float: right;
+  text-indent: 0;
+  font-size: 12px;
+}
+
+.yellow { color: #FBC23C; }
+
+.grey-rev {
+  text-align: center;
+  padding: 53px 10% 0;
+  color: #A1A1A1;
+  font-size: 22px;
+  line-height: 34px;
+}
+
+.dot { padding: 57px 0 147px;}
+
+.dot::after {
+  content: "\f192";
+  font-family: "fontAwesome";
+  float: right;
+  text-indent: 0;
+  color: #888888;
+  padding: 3px;
+  font-size: 12px;
+}
+
+.dot.active::after {
+  color: #5C9BEE;
+}
+
+/* Customer Review section styling ends here */
 
 
 /* Banner styling starts here */
