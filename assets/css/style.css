@@ -114,16 +114,24 @@ li {
   width: 90%; 
   margin: 0 auto;
 }
+
 .wrapper-beautiful {
   max-width: 1350px;
   width: 90%; 
   margin: 0 auto;
 }
+
 .wrapper-customer {
   max-width: 1350px;
   width: 80%; 
   margin: 0 auto;
 }
+.wrapper-feature {
+  max-width: 1350px;
+  width: 86%; 
+  margin: 0 auto;
+}
+
 /*=================================
   Header styling starts here
 =================================*/
@@ -244,7 +252,7 @@ li {
 .grey-txt { 
   padding-top: 24px;
   color: #858485;
-  font-size: 19px;
+  font-size: 18px;
   line-height: 30px;
 }
 /* Keep it simple section styling starts here */
@@ -356,8 +364,108 @@ li {
 .dot.active::after {
   color: #5C9BEE;
 }
-
 /* Customer Review section styling ends here */
+
+/* Features section styling starts here */
+.features { padding-top: 140px; }
+
+.features h2 {
+  font-size: 34px;
+  text-align: center;
+}
+
+.feature-txt {
+  padding: 41px 20% 95px;
+  color: #858485;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.more-features {
+  display: flex;
+}
+
+.feature-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.phone,
+.heart,
+.feature-star,
+.gear { 
+  text-indent: -9999px;
+}
+
+.phone,
+.heart,
+.feature-star,
+.gear {
+  background-color: #EEE;
+  width: 32%;
+  padding: 32px 0;
+  margin-left: 33%;
+  border-radius: 15%;
+}
+
+.phone::before {
+  content: "\f3ce";
+  padding: 0 35%;
+  float: right;
+  color: #3887ED;
+  font-family: "fontAwesome";
+  font-size: 42px;
+  text-indent: 0;
+}
+
+.heart::before {
+  content: "\f004";
+  padding: 0 28%;
+  float: right;
+  color: #3887ED;
+  font-family: "fontAwesome";
+  font-size: 42px;
+  text-indent: 0;
+}
+
+.feature-star::before {
+  content: "\f005";
+  padding: 0 28%;
+  float: right;
+  color: #3887ED;
+  font-family: "fontAwesome";
+  font-size: 42px;
+  text-indent: 0;
+}
+
+.gear::before {
+  content: "\f013";
+  padding: 0 29%;
+  float: right;
+  color: #3887ED;
+  font-family: "fontAwesome";
+  font-size: 42px;
+  text-indent: 0;
+}
+
+.feature-content { 
+  padding-top: 50px;
+  text-align: center;
+}
+
+.feature-content h3 {
+  font-size: 17px;
+}
+
+.content-txt {
+  padding-top: 10px;
+  padding-bottom: 141px;
+  color: #A1A1A1;
+  line-height: 31px;
+}
+
+/* Features section styling ends here */
 
 
 /* Banner styling starts here */
