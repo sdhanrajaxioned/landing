@@ -280,13 +280,8 @@ li {
 /* Beautiful design section styling ends here */
 
 .beautiful { padding-top: 208px; }
-
 .beautiful .wrapper-beautiful { display: flex; }
-
-.beautiful-design {
-  padding: 245px 0 0 18%;
-}
-
+.beautiful-design { padding: 245px 0 0 18%;}
 .beautiful-design h2 { font-size: 36px; }
 /* Beautiful design section styling ends here */
 
@@ -648,7 +643,6 @@ footer {
 
   .download-btn {
     padding: 15px;
-    background-color: #3887ED;
     font-size: 16px;
   }
 
@@ -988,5 +982,59 @@ footer {
   .linkedin::after,
   .apple::after {
     font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 920px){
+  .banner { padding-bottom: 20px; }
+
+  .banner h2 { 
+    padding-top: 180px; 
+    font-size: 28px;
+  }
+
+  .banner p {
+    font-size: 19px;
+    line-height: 27px;
+  }
+
+  
+  .download-btn {
+    padding: 19px;
+    font-size: 17px;
+  }
+  
+  .image-container img{ width: 220px;}
+  .image-container img:first-child { top: 110px; }
+
+  .image-container img:last-child {
+    position: absolute;
+    top: 180px;
+    left: 58px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1290px) {
+  .banner { padding-bottom: 90px; }
+  .image-container {padding-right: 0;}
+  .image-container img{ width: 200px;}
+  .image-container img:first-child { 
+    left: 80px;
+    top: 210px;
+  }
+
+  .image-container img:last-child {
+    position: absolute;
+    top: 280px;
+    left: 164px;
+  }
+
+  .form-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .subscribe-btn {
+  padding: 20px 120px;
   }
 }
