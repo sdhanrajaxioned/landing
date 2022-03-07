@@ -125,7 +125,7 @@ figure img {display: block;}
 
 /* Banner styling starts here */
 .banner { 
-  padding-top: 342px;
+  padding: 343px 0 348px;
   background-color: #39DEFE;
   color: #F0FBFE;
 }
@@ -177,18 +177,18 @@ figure img {display: block;}
   flex-basis: 50%;
   position: relative;
   padding-right: 10%;
+  bottom: 156px;
 }
 
 .box-shadow{ box-shadow: 0 0px 8px 3px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) }
 
 .image-container img:first-child {
-  position: relative;
-  bottom: 156px;
+  position: absolute;
 }
 
 .image-container img:last-child {
   position: absolute;
-  bottom: 66px;
+  top: 100px;
   left: 32.5%;
 }
 
@@ -447,14 +447,7 @@ figure img {display: block;}
 
 .form-container div { flex-basis: 33% }
 
-input[type=text] {
-  width: 100%;
-  padding: 25px 0 17px 4%;
-  border: 2px solid #88ECFF;
-  background-color: #88ECFF;
-}
-
-input[type=email]{
+.form-container input {
   width: 100%;
   padding: 25px 0 17px 4%;
   border: 2px solid #88ECFF;
@@ -558,15 +551,9 @@ footer {
 
   .image-container img {max-width: 100%;}
 
-  .image-container img:first-child {
-    position: relative;
-    bottom: 50px;
-  }
 
   .image-container img:last-child {
     position: absolute;
-    top: 20px;
-    left: 15%;
   }
 
   .simple {padding-top: 150px;}
@@ -651,7 +638,7 @@ footer {
   .image-container img{ width: 240px; }
 
   .image-container img:first-child {
-    position: relative;
+    position: absolute;
     top: 165px;
   }
 
