@@ -231,9 +231,7 @@ li {
   flex: 1;
 }
 
-.wrapper-simple{
-  border-bottom: 2px solid #F2F2F2;
-}
+.wrapper-simple{ border-bottom: 2px solid #F2F2F2; }
 
 .keep-it-simple h2{
   font-size: 33px;
@@ -272,9 +270,7 @@ li {
   font-size: 35px; 
 }
 
-.pixel-perfect p {
-  padding-right: 26%;
-}
+.pixel-perfect p { padding-right: 26%; }
 /* Pixel perfect section styling ends here */
 
 /* Beautiful design section styling ends here */
@@ -361,9 +357,7 @@ li {
   font-size: 12px;
 }
 
-.dot.active::after {
-  color: #5C9BEE;
-}
+.dot.active::after { color: #5C9BEE; }
 /* Customer Review section styling ends here */
 
 /* Features section styling starts here */
@@ -382,9 +376,7 @@ li {
   text-align: center;
 }
 
-.more-features {
-  display: flex;
-}
+.more-features { display: flex; }
 
 .feature-item {
   display: flex;
@@ -454,9 +446,7 @@ li {
   text-align: center;
 }
 
-.feature-content h3 {
-  font-size: 17px;
-}
+.feature-content h3 { font-size: 17px; }
 
 .content-txt {
   padding: 0 7% 141px;
@@ -468,8 +458,6 @@ li {
 /* Features section styling ends here */
 
 /* Subscribe section styling starts here */
-
-
 .subscribe {
   padding-top: 135px; 
   background-color: #39DEFE;
@@ -527,7 +515,6 @@ input[type=email]{
   background-color: #FFF;
   transition: .5s ease-in;
 }
-
 /* Subscribe section styling ends here */
 
 /*=================================
@@ -537,7 +524,6 @@ input[type=email]{
 /*=================================
   footer styling starts here
 =================================*/ 
-
 footer {
   padding-top: 141px;
   text-align: center;
@@ -549,13 +535,8 @@ footer {
   transition: .3s ease-in;
 }
 
-.social-links {
-  padding: 30px 0 133px;
-}
-
-.social-links li a {
-  padding: 0 22px;
-}
+.social-links { padding: 30px 0 133px; }
+.social-links li a { padding: 0 22px; }
 
 .facebook,
 .twitter,
@@ -613,7 +594,7 @@ footer {
 =================================*/ 
 
 /*media query starts*/
-/*media query for 995px starts here*/
+/*media query for 320px starts here*/
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .image-container img { width: 100px;}
 
@@ -703,34 +684,22 @@ footer {
     line-height: 20px;
   }
 
-  input[type=text] {
-    width: 240px;
-  }
-
-  input[type=email] {
-    width: 240px;
-  }
+  input[type=text] { width: 240px; }
+  input[type=email] { width: 240px; }
+  ::placeholder { font-size: 14px; }
 
   .subscribe-btn {
     font-size: 13px;
     padding: 8px 5%;
   }
-
-  ::placeholder {
-    font-size: 14px;
-  }
-
+  
   footer {
     padding-top: 50px;
     line-height: 20px;
   }
 
-  footer p {
-    font-size: 12px;
-  }
-
+  footer p { font-size: 12px; }
   .social-links {padding: 20px 0 40px;}
-
   .social-links li a { padding: 0 12px;}
 
   .facebook::after,
@@ -815,7 +784,8 @@ footer {
 }
 
 @media only screen and (min-width: 560px) and (max-width: 640px){
-  
+  .banner { padding-bottom: 80px;}
+
   .image-container img{ width: 200px; }
 
   .banner h2 {
@@ -982,18 +952,38 @@ footer {
 }
 
 @media screen and (min-width:  767px) and (max-width: 1024px){
+  .banner { padding-bottom: 51px; }
+  
   .image-container img{ width: 240px; }
 
   .image-container img:first-child {
     position: relative;
-    top: 105px;
+    top: 165px;
   }
 
   .image-container img:last-child {
     position: absolute;
-    top: 180px;
+    top: 220px;
     left: 58px;
   }
+
+  .banner h2 {
+    font-size: 30px;
+    padding-top: 220px;
+  }
+
+  .banner p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .download-btn {
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .simple { padding-top: 140px;}
+
 
   .wrapper-simple figure img { width: 280px; }
   .wrapper-beautiful figure img { width: 280px ;}
@@ -1033,6 +1023,9 @@ footer {
     top: 210px;
   }
 
+  .wrapper-simple figure img { width: 350px; }
+  .wrapper-beautiful figure img { width: 280px ;}
+
   .image-container img:last-child {
     position: absolute;
     top: 280px;
@@ -1040,9 +1033,7 @@ footer {
   }
   .form-container {
     flex-wrap: wrap;
-  }
-  .subscribe-btn {
-  padding: 20px 20px;
+    justify-content: center;
   }
 }
 
